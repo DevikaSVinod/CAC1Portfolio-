@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: url('homewall.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all ease .45s;
+  padding: 30px 10%;
+  background: transparent;
+
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+a,button{
+  font-size: 16px;
+  font-weight: 500;
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+nav li a:hover{
+  color:rgb(234, 82, 17);
+  transition: all 0.4s ease 0s ;
+
+
+}
+
+
+body,
+html {
+  height: 100%;
+
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image:url("wall3.png");
+  background-size: cover;
+
+  /* Set a specific height */
+  height: 100%;
+  color: #fff;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.image{
+  border-radius: 10px;
+  width: 300px;
+  height:400px;
+  margin-right:-500 px;
+  margin-top
+  : 170px;
+
+}
+
+.align {
+  text-align: start;
+  justify-content: start;
+  color: rgb(15, 15, 1);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo1{
+  margin-left: 950px;
+  margin-top: -130px;
+  word-spacing: 50px;  
+}
